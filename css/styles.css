@@ -5,6 +5,7 @@ body{
 #title{
     background-color: #ff4c68;
     color: white;
+    padding: 0% 10% 0% 3%;
 }
 h1{
     font-family: "Montserrat-black", sans-serif;
@@ -20,8 +21,9 @@ h2{
     padding: 0 15% 0 15%;
 }
 
+
 .container-fluid{
-    padding: 3% 15% ;
+    padding: 3% 10% ;
 }
 
 .navbar{
@@ -46,16 +48,16 @@ h2{
 }
 
 .homePage-Img{
-    width: 60%;
     transform: rotate(25deg);
+
 }
 
 #features{
-    margin: 7% 15%;
+    padding: 20% 15%;
+    background-color: beige;
 }
 
 .second-section{
-    margin: 15% auto;
     font-family: 'Montserrat-bold';
     text-align: center;
 }
@@ -77,7 +79,7 @@ p{
 }
 
 #testimonials{
-    padding: 12% 15%;
+    padding: 10% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -98,4 +100,23 @@ p{
 .press-image{
     width: 15%;
     margin: 20px 20px 15px
+}
+.Pricing-card{
+    text-align: center;
+
+}
+.pricing-button:hover{
+    color: black;
+    background-color: white;
+}
+.pricing-button{
+    color: white;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-container{
+    padding: 3% 2%;
 }
